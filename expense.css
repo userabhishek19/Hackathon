@@ -1,26 +1,30 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: white;
 }
 
 .container {
+    align-self: center;
     max-width: 400px;
     margin: 0 auto;
-    background-color: #fff;
-    padding: 20px;
+    background-color: black;
+    padding: 40px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 h2 {
+    color:white;
     text-align: center;
 }
 
 .expense-form, .expense-list {
+    align-items: center;
     margin-bottom: 20px;
 }
 
 h3 {
+    color:white;
     text-align: center;
     margin-bottom: 10px;
 }
@@ -34,7 +38,7 @@ input {
 }
 
 button {
-    background-color: #007BFF;
+    background-color: #0044ff;
     color: #fff;
     border: none;
     padding: 10px;
@@ -48,11 +52,13 @@ button:hover {
 }
 
 ul {
+    color:white;
     list-style-type: none;
     padding: 0;
 }
 
 li {
+    color:white;
     display: flex;
     justify-content: space-between;
     align-items: center;
