@@ -38,6 +38,8 @@ function login(event) {
     }
 
     alert(`Welcome, ${user.name}! You are now logged in.`);
+    window.location.href = "/Users/abhishek/Documents/DSW/Project/hacathon/expense/expense.html";
+
     clearLoginForm();
 }
 
@@ -46,6 +48,7 @@ function clearRegisterForm() {
     document.getElementById("register-name").value = "";
     document.getElementById("register-email").value = "";
     document.getElementById("register-password").value = "";
+    window.location.href = "index.html";
 }
 
 
