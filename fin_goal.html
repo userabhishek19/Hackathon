@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fin_goal.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.0/chart.min.js"></script>
+    <title>Financial Goals</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Financial Goals</h2>
+        <div class="goal-form">
+            <h3>Add Goal</h3>
+            <form id="goal-form" onsubmit="addGoal(event)">
+                <input type="text" id="goal-name" placeholder="Goal Name" required>
+                <input type="number" id="goal-amount" placeholder="Goal Amount (in INR)" required>
+                <button type="submit">Add Goal</button>
+            </form>
+        </div>
+        <div class="goal-list">
+            <h3>Goal List</h3>
+            <table id="goal-table">
+                <thead>
+                    <tr>
+                        <th>Goal Name</th>
+                        <th>Goal Amount (₹)</th>
+                    </tr>
+                </thead>
+                <tbody id="goal-table-body"></tbody>
+            </table>
+        </div>
+    </div>
+    <div class="chart-container">
+        <canvas id="goal-chart"></canvas>
+    </div>
+    <script src="fin_goal.js"></script>
+</body>
+</html>
