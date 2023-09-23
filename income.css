@@ -4,15 +4,17 @@ body {
 }
 
 .container {
-    max-width: 400px;
+    color:white;
+    max-width: 500px;
     margin: 0 auto;
-    background-color: #fff;
-    padding: 20px;
+    background-color: black;
+    padding: 40px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 h2 {
+    color:white;
     text-align: center;
 }
 
@@ -21,6 +23,7 @@ h2 {
 }
 
 h3 {
+    color:white;
     text-align: center;
     margin-bottom: 10px;
 }
@@ -48,11 +51,13 @@ button:hover {
 }
 
 ul {
+    color:white;
     list-style-type: none;
     padding: 0;
 }
 
 li {
+    color:white;
     display: flex;
     justify-content: space-between;
     align-items: center;
