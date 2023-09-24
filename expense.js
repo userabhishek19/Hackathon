@@ -24,3 +24,9 @@ function addExpense(event) {
     document.getElementById("expense-description").value = "";
     document.getElementById("expense-amount").value = "";
 }
+
+   
+    function proceedToIncome() {
+        window.location.href = "http://127.0.0.1:3000/income.html"; // Replace with your actual URL
+    }
+    
