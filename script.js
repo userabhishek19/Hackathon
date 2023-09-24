@@ -32,7 +32,7 @@ function login(event) {
     }
 
     alert(`Welcome, ${user.name}! You are now logged in.`);
-    window.location.href = "hacathon/expense/expense.html"; 
+    window.location.href = "http://127.0.0.1:3000/expense.html"; 
     clearLoginForm();
 }
 
