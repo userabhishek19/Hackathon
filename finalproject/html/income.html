@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/income.css">
+    <title>Income Management</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Income Management</h2>
+        <div class="income-form">
+            <h3>Add Income</h3>
+            <form id="income-form" onsubmit="addIncome(event)">
+                <input type="text" id="income-source" placeholder="Source" required>
+                <input type="text" id="income-frequency" placeholder="Frequency (e.g., monthly)" required>
+                <input type="number" id="income-amount" placeholder="Amount" required>
+                <button type="submit">Add Income</button>
+            </form>
+        </div>
+        <div class="income-list">
+            <h3>Income List</h3>
+            <ul id="income-list"></ul>
+        </div>
+    </div>
+
+    <script src="js/income.js"></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/budget.css">
+    <title>Budgeting Module</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Budgeting Module</h2>
+        <div class="budget-form">
+            <h3>Create Budget</h3>
+            <form id="budget-form" onsubmit="createBudget(event)">
+                <input type="text" id="budget-category" placeholder="Category (e.g., groceries)" required>
+                <input type="number" id="budget-limit" placeholder="Budget Limit" required>
+                <button type="submit">Create Budget</button>
+            </form>
+        </div>
+        <div class="budget-list">
+            <h3>Budget List</h3>
+            <ul id="budget-list"></ul>
+        </div>
+    </div>
+
+    <script src="js/budget.js"></script>
+</body>
+</html>
